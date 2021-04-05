@@ -1,0 +1,218 @@
+ /* Header */
+
+ #header {
+     position: fixed;
+     z-index: 99999;
+     width: 100%;
+     background: #313fba;
+     /* background-color: transparent !important; */
+     border-bottom: 1px solid rgba(250, 250, 250, 0.30);
+     height: 80px;
+     -webkit-transition: all .5s ease 0s;
+     -moz-transition: all .5s ease 0s;
+     -o-transition: all .5s ease 0s;
+     transition: all .5s ease 0s;
+ }
+
+ #header .navbar {}
+
+ #header .navbar .navbar-brand {
+     font-size: 40px;
+ }
+
+ #header .navbar .nav-item a {
+     color: #ddd;
+ }
+
+ #header .navbar .nav-item a:hover {
+     color: #007bff;
+ }
+
+ #header .collapse .btn {}
+
+ /* Banner Starts */
+
+ #banner {
+     background: url(../images/banner-bg.jpg);
+     width: 100%;
+     padding: 220px 0;
+ }
+
+ #banner .part-1 h2 {
+     font-size: 50px;
+     color: #ddd;
+     text-align: center;
+     padding: 20px 0;
+ }
+
+ #banner .part-1 .form-control {
+     width: 60%;
+     text-align: center;
+     margin: auto;
+     float: left;
+     margin-right: 40px;
+     margin-right: 40px;
+     margin-left: 174px;
+ }
+
+ /* Trusted Starts */
+
+ #Trusted-Starts {
+     background-color: #F7F7F7;
+     padding-bottom: 73px;
+ }
+
+ #Trusted-Starts .part-1 h2 {
+     margin: 80px auto;
+     text-align: center;
+     font-size: 23px;
+     font-weight: bold;
+ }
+
+ /* services-section */
+
+ #services-section {}
+
+ #services-section .part-1 h4 {
+     color: #4f11a0;
+     font-size: 20px;
+     font-weight: bold;
+ }
+ #services-section .part-1 h2 {
+     font-size: 35px;
+     font-weight: bold;
+     padding: 10px 0px;
+ }
+ #services-section .col-md-4 {
+     margin-bottom: 30px;
+ }
+ #services-section .part-2{
+    padding-bottom: 100px;
+    margin-top: 30px;
+}
+ #services-section .part-2 .item {
+    padding: 25px;
+    background: #F7F7F7;
+}
+ #services-section .part-2 .item:hover {
+    background: #F7F7F7;
+}
+ #services-section .part-2 .item .fa {
+     font-size: 50px;
+     color: #313fba;
+ }
+ #services-section .part-2 .item h3 {
+     font-size: 22px;
+     padding-top: 25px;
+     padding-bottom: 10px;
+ }
+
+ /* pricing-section */
+
+#pricing-section{
+    background: url(../images/pricing-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    position: absolute;
+    width: 100%;
+}
+#pricing-section .part-1 h2{
+    color: #ddd;
+    margin-top: 90px;
+}
+#pricing-section .part-1 p{
+    color: #ddd;
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+ /* Media */
+
+ @media screen and (max-width: 992px) {
+
+     #banner .part-1 .form-control {
+         margin-left: 0px;
+         width: 100%;
+         margin-bottom: 13px;
+     }
+
+     #header .navbar-collapse {
+         background: rgb(82, 15, 157);
+         margin-top: 4px;
+         margin-left: -5px;
+         padding-bottom: 59px;
+         margin-right: -28px;
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+
+     #banner .part-1 h2 {
+         font-size: 40px;
+     }
+
+     #banner .part-1 .form-control {
+         margin-left: 0px;
+         width: 100%;
+         margin-bottom: 13px;
+     }
+ }
+
+ @media screen and (max-width: 576px) {
+     #banner {
+         padding-bottom: 91px;
+     }
+
+     #banner .part-1 h2 {
+         font-size: 30px;
+         color: #ddd;
+         text-align: center;
+         padding: 20px 0;
+         margin-top: -89px;
+     }
+
+     #banner .part-1 .form-control {
+         margin-left: 0px;
+         width: 100%;
+         margin-bottom: 13px;
+     }
+
+     #Trusted-Starts .part-1 h2 {
+         margin: 50px auto;
+         font-size: 17px;
+     }
+
+     #services-section .col-md-12 {
+         margin-top: 70px;
+     }
+
+     #services-section .part-1 h2 {
+         font-size: 27px;
+     }
+     #services-section .part-2 .item {
+        padding: 25px;
+        background: #F7F7F7;
+   
+    }
+    #services-section .part-1 .col-md-12{
+        margin-bottom: 30px;
+    }
+    #pricing-section .part-1 h2 {
+        margin-top: 40px;
+    }
+    #pricing-section .part-1 p {
+        width: 100%;
+        text-align: justify;
+    }
+
+
+
+ }
