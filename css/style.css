@@ -214,7 +214,7 @@
 /* testimonials-section */
 
 #testimonials-section{
-background: url(../images/banner-bg.jpg)
+background: #F7F7F7;
 }
 #testimonials-section .bd-example{
     padding: 100px 0px;
@@ -222,45 +222,137 @@ background: url(../images/banner-bg.jpg)
 
 #testimonials-section .carousel-inner h3{
     font-size: 22px;
-    color: rgb(216, 216, 216);
+    color: #212529
 }
 #testimonials-section .carousel-inner h2{
     font-size: 29px;
     padding: 10px 0;
     text-transform: capitalize;
-    color: rgb(216, 216, 216);
+    color: #212529
 }
 #testimonials-section .carousel-inner p{
-    color: rgb(216, 216, 216);
+    color: #212529
 }
 #testimonials-section .carousel-inner .fa{
     font-size: 30px;
     padding: 10px 160px;
-    color: rgb(216, 216, 216);
+    color: #212529
 }
 #testimonials-section .carousel-inner h4{
     font-size: 17px;
     font-weight: bold;
-    color: rgb(216, 216, 216);
+    color: #212529
 }
 #testimonials-section .carousel-inner span{
     font-size: 13px;
     color: #313fba;
     font-weight: bold;
-    color: rgb(216, 216, 216);
+    color: #212529
 }
 #testimonials-section .carousel-indicators{
     bottom: -47px;
 }
+#testimonials-section .carousel-control-next-icon{
+    background-color: #6704b6;
+    width: 40px;
+    border-radius: 30px;
+}
+#testimonials-section .carousel-control-prev-icon{
+    background-color: #6704b6;
+    width: 40px;
+    border-radius: 30px;
+}
+
+/* Footer  */
+#footer{
+    background: url(../images/footer-bg.jpg);
+    padding: 100px 0;
+}
+#footer .div-1 .part-1{
+    padding-bottom: 50px;
+}
+#footer .div-1 .part-1 h2{
+    font-size: 25px;
+    color: #ddd;
+    padding-bottom: 10px;
+}
+#footer .div-1 .part-1 p{
+    font-size: 14px;
+    text-align: justify;
+    color: #ddd;
+}
+#footer .div-1 .part-2{
+    padding-bottom: 50px;
+}
+#footer .div-1 .part-2 h2{
+    font-size: 25px;
+    color: #ddd;
+    padding-bottom: 10px;
+}
+#footer .div-1 .part-2 .item a{
+    display: block;
+    color: #ddd;
+   text-decoration: none;
+   
+}
+#footer .div-1 .part-2 .item a:hover{
+    color:  rgb(186, 186, 186);
+}
+#footer .div-1 .part-3{
+    padding-bottom: 50px;
+}
+#footer .div-1 .part-3 h2{
+    font-size: 25px;
+    color: #ddd;
+    padding-bottom: 10px;
+}
+#footer .div-1 .part-3 .item a{
+    display: block;
+    color: #ddd;
+   text-decoration: none;
+   
+}
+#footer .div-1 .part-3 .item a:hover{
+    color: rgb(186, 186, 186);
+}
+#footer .div-1 .part-4{
+    padding-bottom: 50px;
+}
+#footer .div-1 .part-4 h2{
+    font-size: 25px;
+    color: #ddd;
+    padding-bottom: 10px;
+}
+#footer .div-1 .part-4 .item p{
+    display: block;
+    color: #ddd;
+   text-decoration: none;
+}
+#footer .div-2{
+   border-top: 1px solid #ddd;
+}
+#footer .div-2 p{
+    text-align: center;
+    margin-top: 30px;
+    color: #ddd;
+}
+#footer .div-2 a{
+    color: #00ff93;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+
+
 
 
 
  /* Media */
 
  @media screen and (max-width: 1200px) {
-    /* #feature{
-        margin-top: 580px;
-    } */
+    
  }
 
 
@@ -276,7 +368,7 @@ background: url(../images/banner-bg.jpg)
         margin-top: 2px;
         margin-left: -31px;
         padding-bottom: 59px;
-        margin-right: -33px;
+        margin-right: -96px;
         padding-left: 18px;
      }
      #pricing-section .part-2 .pricing-item {
@@ -311,21 +403,13 @@ background: url(../images/banner-bg.jpg)
     #feature{
         margin-top: 50px;
     }
-     /* #pricing-section .part-2 .pricing-item {
-        background: #FFFFFF;
-        padding: 40px;
-        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
-        position: relative;
-        margin: 15px;
+    #feature .part-2 hgroup h3{
+        font-size: 15px;
     }
-    #pricing-section .container {
-        padding-right: 0px;
-        padding-left: 0px;
+    #feature .part-2 figure{
+        padding-bottom: 62px;
     }
-    #pricing-section .part-2 .col-md-4{
-        margin-top: 0%;
-        margin-bottom: 20px;
-    } */
+
  }
 
  @media screen and (max-width: 768px) {
@@ -357,6 +441,9 @@ background: url(../images/banner-bg.jpg)
      
     #feature{
         margin-top: 50px;
+    }
+    #feature .part-2 hgroup h3{
+        font-size: 22px;
     }
  }
 
@@ -438,4 +525,15 @@ background: url(../images/banner-bg.jpg)
     #feature{
         margin-top: 50px;
     }
+    #feature .part-2 figure{
+        display: none;
+        padding-bottom: 10px;
+    }
+    #feature .part-2 .col-md-6{
+        margin-bottom: 20px;
+    }
+    #feature{
+        padding-bottom: 50px;
+    }
+
  }
