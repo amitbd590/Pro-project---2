@@ -1,115 +1,125 @@
- /* Header */
+/*  ********  index.html  ********** */
 
- #header {
-     position: fixed;
-     z-index: 99999;
-     width: 100%;
-     background: #313fba;
-     /* background-color: transparent !important; */
-     border-bottom: 1px solid rgba(250, 250, 250, 0.30);
-     height: 80px;
-     -webkit-transition: all .5s ease 0s;
-     -moz-transition: all .5s ease 0s;
-     -o-transition: all .5s ease 0s;
-     transition: all .5s ease 0s;
- }
 
- #header .navbar {}
+/* Header */
 
- #header .navbar .navbar-brand {
-     font-size: 40px;
- }
+#header {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    background: #313fba;
+    /* background-color: transparent !important; */
+    border-bottom: 1px solid rgba(250, 250, 250, 0.30);
+    height: 80px;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
 
- #header .navbar .nav-item a {
-     color: #ddd;
- }
+#header .navbar {}
 
- #header .navbar .nav-item a:hover {
-     color: #007bff;
- }
+#header .navbar .navbar-brand {
+    font-size: 40px;
+}
 
- #header .collapse .btn {}
+#header .navbar .nav-item a {
+    color: #ddd;
+}
 
- /* Banner Starts */
+#header .navbar .nav-item a:hover {
+    color: #007bff;
+}
 
- #banner {
-     background: url(../images/banner-bg.jpg);
-     width: 100%;
-     padding: 220px 0;
- }
+#header .collapse .btn {}
 
- #banner .part-1 h2 {
-     font-size: 50px;
-     color: #ddd;
-     text-align: center;
-     padding: 20px 0;
- }
+/* Banner Starts */
 
- #banner .part-1 .form-control {
-     width: 60%;
-     text-align: center;
-     margin: auto;
-     float: left;
-     margin-right: 40px;
-     margin-right: 40px;
-     margin-left: 174px;
- }
+#banner {
+    background: url(../images/banner-bg.jpg);
+    width: 100%;
+    padding: 220px 0;
+}
 
- /* Trusted Starts */
+#banner .part-1 h2 {
+    font-size: 50px;
+    color: #ddd;
+    text-align: center;
+    padding: 20px 0;
+}
 
- #Trusted-Starts {
-     background-color: #F7F7F7;
-     padding-bottom: 73px;
- }
+#banner .part-1 .form-control {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    float: left;
+    margin-right: 40px;
+    margin-right: 40px;
+    margin-left: 174px;
+}
 
- #Trusted-Starts .part-1 h2 {
-     margin: 80px auto;
-     text-align: center;
-     font-size: 23px;
-     font-weight: bold;
- }
+/* Trusted Starts */
 
- /* services-section */
+#Trusted-Starts {
+    background-color: #F7F7F7;
+    padding-bottom: 73px;
+}
 
- #services-section {}
+#Trusted-Starts .part-1 h2 {
+    margin: 80px auto;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
 
- #services-section .part-1 h4 {
-     color: #4f11a0;
-     font-size: 20px;
-     font-weight: bold;
- }
- #services-section .part-1 h2 {
-     font-size: 35px;
-     font-weight: bold;
-     padding: 10px 0px;
- }
- #services-section .col-md-4 {
-     margin-bottom: 30px;
- }
- #services-section .part-2{
+/* services-section */
+
+#services-section {}
+
+#services-section .part-1 h4 {
+    color: #4f11a0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#services-section .part-1 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+#services-section .col-md-4 {
+    margin-bottom: 30px;
+}
+
+#services-section .part-2 {
     padding-bottom: 100px;
     margin-top: 30px;
 }
- #services-section .part-2 .item {
+
+#services-section .part-2 .item {
     padding: 25px;
     background: #F7F7F7;
 }
- #services-section .part-2 .item:hover {
+
+#services-section .part-2 .item:hover {
     background: #F7F7F7;
 }
- #services-section .part-2 .item .fa {
-     font-size: 50px;
-     color: #313fba;
- }
- #services-section .part-2 .item h3 {
-     font-size: 22px;
-     padding-top: 25px;
-     padding-bottom: 10px;
- }
 
- /* pricing-section */
+#services-section .part-2 .item .fa {
+    font-size: 50px;
+    color: #313fba;
+}
 
-#pricing-section{
+#services-section .part-2 .item h3 {
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+/* pricing-section */
+
+#pricing-section {
     background: url(../images/pricing-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -117,58 +127,69 @@
     position: relative;
     width: 100%;
 }
-#pricing-section .part-1 h2{
+
+#pricing-section .part-1 h2 {
     color: #ddd;
     margin-top: 90px;
 }
-#pricing-section .part-1 p{
+
+#pricing-section .part-1 p {
     color: #ddd;
     width: 50%;
     margin: auto;
     padding: 10px 0;
 }
-#pricing-section .part-2 .pricing-item{
+
+#pricing-section .part-2 .pricing-item {
     background: #FFFFFF;
     padding: 40px;
     box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
     position: absolute;
     margin: 15px;
 }
-#pricing-section .part-2 .col-md-4 h2{
+
+#pricing-section .part-2 .col-md-4 h2 {
     font-size: 20px;
     text-align: center;
     padding-bottom: 14px;
 }
-#pricing-section .part-2 .col-md-4 .price{
+
+#pricing-section .part-2 .col-md-4 .price {
     background: #007bff;
     padding: 20px 25px;
     text-align: center;
     border-radius: 20px;
     color: #ddd;
 }
-#pricing-section .part-2 .col-md-4 p{
+
+#pricing-section .part-2 .col-md-4 p {
     padding: 25px;
     text-align: justify;
 }
-#pricing-section .part-2 .col-md-4{
+
+#pricing-section .part-2 .col-md-4 {
     box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
 }
-#pricing-section .part-2 .col-md-4 .hr{
+
+#pricing-section .part-2 .col-md-4 .hr {
     width: 100%;
     height: 1px;
     background-color: #eee;
     margin: 35px 0px 30px 0px;
 }
-#pricing-section .part-2 .col-md-4 ul li{
+
+#pricing-section .part-2 .col-md-4 ul li {
     list-style: none;
     padding: 10px 0px;
 }
-#pricing-section .part-2 .col-md-4 ul li a{
+
+#pricing-section .part-2 .col-md-4 ul li a {
     font-size: 18px;
     text-decoration: none;
     color: #7d7d7d;
 }
-#pricing-section .part-2 .col-md-4 .btn{
+
+#pricing-section .part-2 .col-md-4 .btn {
     position: absolute;
     left: 32%;
     bottom: -3%;
@@ -178,18 +199,21 @@
 /* features-section */
 
 
-#feature{
+#feature {
     margin-top: 580px;
 }
-#feature .part-1{
+
+#feature .part-1 {
     padding-bottom: 80px;
 }
-#feature .part-1 h2{
+
+#feature .part-1 h2 {
     font-size: 25px;
     color: #313fba;
     text-align: center;
 }
-#feature .part-1 h1{
+
+#feature .part-1 h1 {
     text-transform: uppercase;
     font-size: 35px;
     font-weight: bold;
@@ -197,313 +221,395 @@
     color: #727272;
     padding-top: 10px;
 }
-#feature .part-2 .item{
+
+#feature .part-2 .item {
     box-shadow: antiquewhite;
     box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
     padding: 30px;
 }
-#feature .part-2 figure{
+
+#feature .part-2 figure {
     padding-right: 20px;
     margin-top: 20px;
 }
-#feature .part-2 hgroup h3{
+
+#feature .part-2 hgroup h3 {
     font-weight: 700;
     padding-bottom: 10px;
 }
 
 /* testimonials-section */
 
-#testimonials-section{
-background: #F7F7F7;
+#testimonials-section {
+    background: #F7F7F7;
 }
-#testimonials-section .bd-example{
+
+#testimonials-section .bd-example {
     padding: 100px 0px;
 }
 
-#testimonials-section .carousel-inner h3{
+#testimonials-section .carousel-inner h3 {
     font-size: 22px;
     color: #212529
 }
-#testimonials-section .carousel-inner h2{
+
+#testimonials-section .carousel-inner h2 {
     font-size: 29px;
     padding: 10px 0;
     text-transform: capitalize;
     color: #212529
 }
-#testimonials-section .carousel-inner p{
+
+#testimonials-section .carousel-inner p {
     color: #212529
 }
-#testimonials-section .carousel-inner .fa{
+
+#testimonials-section .carousel-inner .fa {
     font-size: 30px;
     padding: 10px 160px;
     color: #212529
 }
-#testimonials-section .carousel-inner h4{
+
+#testimonials-section .carousel-inner h4 {
     font-size: 17px;
     font-weight: bold;
     color: #212529
 }
-#testimonials-section .carousel-inner span{
+
+#testimonials-section .carousel-inner span {
     font-size: 13px;
     color: #313fba;
     font-weight: bold;
     color: #212529
 }
-#testimonials-section .carousel-indicators{
+
+#testimonials-section .carousel-indicators {
     bottom: -47px;
 }
-#testimonials-section .carousel-control-next-icon{
+
+#testimonials-section .carousel-control-next-icon {
     background-color: #6704b6;
     width: 40px;
     border-radius: 30px;
 }
-#testimonials-section .carousel-control-prev-icon{
+
+#testimonials-section .carousel-control-prev-icon {
     background-color: #6704b6;
     width: 40px;
     border-radius: 30px;
 }
 
 /* Footer  */
-#footer{
+#footer {
     background: url(../images/footer-bg.jpg);
     padding: 100px 0;
 }
-#footer .div-1 .part-1{
+
+#footer .div-1 .part-1 {
     padding-bottom: 50px;
 }
-#footer .div-1 .part-1 h2{
+
+#footer .div-1 .part-1 h2 {
     font-size: 25px;
     color: #ddd;
     padding-bottom: 10px;
 }
-#footer .div-1 .part-1 p{
+
+#footer .div-1 .part-1 p {
     font-size: 14px;
     text-align: justify;
     color: #ddd;
 }
-#footer .div-1 .part-2{
+
+#footer .div-1 .part-2 {
     padding-bottom: 50px;
 }
-#footer .div-1 .part-2 h2{
+
+#footer .div-1 .part-2 h2 {
     font-size: 25px;
     color: #ddd;
     padding-bottom: 10px;
 }
-#footer .div-1 .part-2 .item a{
+
+#footer .div-1 .part-2 .item a {
     display: block;
     color: #ddd;
-   text-decoration: none;
-   
+    text-decoration: none;
+    font-size: 14px;
+
 }
-#footer .div-1 .part-2 .item a:hover{
-    color:  rgb(186, 186, 186);
-}
-#footer .div-1 .part-3{
-    padding-bottom: 50px;
-}
-#footer .div-1 .part-3 h2{
-    font-size: 25px;
-    color: #ddd;
-    padding-bottom: 10px;
-}
-#footer .div-1 .part-3 .item a{
-    display: block;
-    color: #ddd;
-   text-decoration: none;
-   
-}
-#footer .div-1 .part-3 .item a:hover{
+
+#footer .div-1 .part-2 .item a:hover {
     color: rgb(186, 186, 186);
 }
-#footer .div-1 .part-4{
+
+#footer .div-1 .part-3 {
     padding-bottom: 50px;
 }
-#footer .div-1 .part-4 h2{
+
+#footer .div-1 .part-3 h2 {
     font-size: 25px;
     color: #ddd;
     padding-bottom: 10px;
 }
-#footer .div-1 .part-4 .item p{
+
+#footer .div-1 .part-3 .item a {
     display: block;
     color: #ddd;
-   text-decoration: none;
+    text-decoration: none;
+    font-size: 14px;
+
 }
-#footer .div-2{
-   border-top: 1px solid #ddd;
+
+#footer .div-1 .part-3 .item a:hover {
+    color: rgb(186, 186, 186);
 }
-#footer .div-2 p{
+
+#footer .div-1 .part-4 {
+    padding-bottom: 50px;
+}
+
+#footer .div-1 .part-4 h2 {
+    font-size: 25px;
+    color: #ddd;
+    padding-bottom: 10px;
+}
+
+#footer .div-1 .part-4 .item p {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#footer .div-2 {
+    border-top: 1px solid #ddd;
+}
+
+#footer .div-2 p {
     text-align: center;
     margin-top: 30px;
     color: #ddd;
 }
-#footer .div-2 a{
+
+#footer .div-2 a {
     color: #00ff93;
     font-weight: 600;
     text-decoration: none;
 }
 
 
+/* ***************** About.html  ***************** */
 
 
+/* Banner Starts */
 
+#about-banner {
+    background: url(../images/banner-bg.jpg);
+    width: 100%;
+    padding: 220px 0;
+}
 
+#about-banner .part-1 h2 {
+    font-size: 50px;
+    color: #ddd;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 28px;
+}
 
+#about-banner .part-1 h3 {
+    display: inline;
+    color: #ddd;
+    font-size: 20px;
+}
 
- /* Media */
+#about-banner .part-1 a {
+    text-decoration: none;
+}
 
- @media screen and (max-width: 1200px) {
+#about-banner .part-1 span {
+    display: inline;
+    color: #ddd;
+    font-size: 20px;
+}
+
+/* about-us */
+
+#about_about-us {
+    background: #F7F7F7;
+}
+
+#about_about-us {
+    padding: 153px 0px;
+}
+
+#about_about-us .group-2 {
+    padding: 0 0 0 81px;
+}
+
+#about_about-us .group-2 h3 {
+    font-size: 22px;
+    color: #007bff;
+    padding-bottom: 13px;
+}
+
+#about_about-us .group-2 p {
+    padding-bottom: 48px;
+    border-bottom: 1px solid #ddd;
+}
+
+#about_about-us .group-2 .row {
+    padding-bottom: 54px;
+    margin-left: -15px;
+    padding-top: 57px;
+}
+
+#about_about-us .group-2 .row a {
+    text-decoration: none;
+}
+
+/* team-section */
+
+#about-team-section {}
+
+#about-team-section .container {
+    padding: 150px 0;
+    text-align: center;
+}
+
+#about-team-section .container .part-1 h3 {
+    font-size: 20px;
+    color: #313fba;
+}
+
+#about-team-section .container .part-1 h2 {
+    padding: 10px 0;
+    font-weight: bold;
+    padding-bottom: 24px;
+   
+}
+
+#about-team-section .container .part-1 p {
+    padding: 0px 200px 24px 200px;
+}
+
+#about-team-section .part-2 {
     
- }
+}
+#about-team-section .part-2 figure {
+    padding: 23px;
+    cursor: pointer;
+}
+#about-team-section .part-2 figure:hover {
+    opacity: .8;
+}
+#about-team-section .part-2 figure h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+#about-team-section .part-2 figure span{
+    font-size: 15px;
+    color: #510e9c;
+    font-weight: 600;
+}
 
 
- @media screen and (max-width: 992px) {
 
-     #banner .part-1 .form-control {
-         margin-left: 0px;
-         width: 100%;
-         margin-bottom: 13px;
-     }
-     #header .navbar-collapse {
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media */
+
+@media screen and (max-width: 1200px) {}
+
+
+@media screen and (max-width: 992px) {
+
+    #banner .part-1 .form-control {
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 13px;
+    }
+
+    #header .navbar-collapse {
         background: rgb(82, 15, 157);
         margin-top: 2px;
         margin-left: -31px;
         padding-bottom: 59px;
         margin-right: -96px;
         padding-left: 18px;
-     }
-     #pricing-section .part-2 .pricing-item {
+    }
+
+    #pricing-section .part-2 .pricing-item {
         background: #FFFFFF;
         padding: 10px;
         box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
         position: relative;
         margin: 0px;
     }
+
     #pricing-section .part-2 .col-md-4 p {
         padding: 0px;
         text-align: justify;
         font-size: 13px;
         padding-top: 10px;
     }
+
     #pricing-section .part-2 .col-md-4 {
         padding-right: 5px;
         padding-left: 5px;
     }
 
-    #pricing-section .part-2 .col-md-4 .price h2{
+    #pricing-section .part-2 .col-md-4 .price h2 {
         padding: 0px;
         text-align: justify;
         font-size: 13px;
         padding-top: 10px;
     }
+
     #pricing-section .part-2 .col-md-4 .btn {
         position: absolute;
         left: 24%;
         bottom: -3%;
     }
-    #feature{
+
+    #feature {
         margin-top: 50px;
     }
-    #feature .part-2 hgroup h3{
+
+    #feature .part-2 hgroup h3 {
         font-size: 15px;
     }
-    #feature .part-2 figure{
+
+    #feature .part-2 figure {
         padding-bottom: 62px;
     }
 
- }
+}
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-     #banner .part-1 h2 {
-         font-size: 40px;
-     }
-
-     #banner .part-1 .form-control {
-         margin-left: 0px;
-         width: 100%;
-         margin-bottom: 13px;
-     }
-     #pricing-section .part-2 .pricing-item {
-        background: #FFFFFF;
-        padding: 40px;
-        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
-        position: relative;
-        margin: 15px;
+    #banner .part-1 h2 {
+        font-size: 40px;
     }
-    #pricing-section .container {
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    #pricing-section .part-2 .col-md-4{
-        margin-top: 0%;
-        margin-bottom: 20px;
-    }
-     
-    #feature{
-        margin-top: 50px;
-    }
-    #feature .part-2 hgroup h3{
-        font-size: 22px;
-    }
- }
 
- @media screen and (max-width: 576px) {
-     #banner {
-         padding-bottom: 91px;
-     }
-
-     #banner .part-1 h2 {
-         font-size: 30px;
-         color: #ddd;
-         text-align: center;
-         padding: 20px 0;
-         margin-top: -89px;
-     }
-
-     #banner .part-1 .form-control {
-         margin-left: 0px;
-         width: 100%;
-         margin-bottom: 13px;
-     }
-     #banner .part-1 .click {
-         display: block !important;
-         margin-left: 82px;
-     }
-     #banner .part-1 .click {
-         display: block !important;
-         margin-left: 82px;
-     }
-     #banner .part-1 .click .input-group-prepend {
-        padding: 10px 0;
-     }
-
-     #Trusted-Starts .part-1 h2 {
-         margin: 50px auto;
-         font-size: 17px;
-     }
-
-     #services-section .col-md-12 {
-         margin-top: 70px;
-     }
-
-     #services-section .part-1 h2 {
-         font-size: 27px;
-     }
-     #services-section .part-2 .item {
-        padding: 25px;
-        background: #F7F7F7;
-   
-    }
-    #services-section .part-1 .col-md-12{
-        margin-bottom: 30px;
-    }
-    #pricing-section .part-1 h2 {
-        margin-top: 40px;
-    }
-    #pricing-section .part-1 p {
+    #banner .part-1 .form-control {
+        margin-left: 0px;
         width: 100%;
-        text-align: justify;
+        margin-bottom: 13px;
     }
+
     #pricing-section .part-2 .pricing-item {
         background: #FFFFFF;
         padding: 40px;
@@ -511,29 +617,172 @@ background: #F7F7F7;
         position: relative;
         margin: 15px;
     }
+
     #pricing-section .container {
         padding-right: 0px;
         padding-left: 0px;
     }
-    #pricing-section .part-2 .col-md-4{
+
+    #pricing-section .part-2 .col-md-4 {
         margin-top: 0%;
         margin-bottom: 20px;
     }
+
+    #feature {
+        margin-top: 50px;
+    }
+
+    #feature .part-2 hgroup h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #banner {
+        padding-bottom: 91px;
+    }
+
+    #banner .part-1 h2 {
+        font-size: 30px;
+        color: #ddd;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: -89px;
+    }
+
+    #banner .part-1 .form-control {
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 13px;
+    }
+
+    #banner .part-1 .click {
+        display: block !important;
+        margin-left: 82px;
+    }
+
+    #banner .part-1 .click {
+        display: block !important;
+        margin-left: 82px;
+    }
+
+    #banner .part-1 .click .input-group-prepend {
+        padding: 10px 0;
+    }
+
+    #Trusted-Starts .part-1 h2 {
+        margin: 50px auto;
+        font-size: 17px;
+    }
+
+    #services-section .col-md-12 {
+        margin-top: 70px;
+    }
+
+    #services-section .part-1 h2 {
+        font-size: 27px;
+    }
+
+    #services-section .part-2 .item {
+        padding: 25px;
+        background: #F7F7F7;
+
+    }
+
+    #services-section .part-1 .col-md-12 {
+        margin-bottom: 30px;
+    }
+
+    #pricing-section .part-1 h2 {
+        margin-top: 40px;
+    }
+
+    #pricing-section .part-1 p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    #pricing-section .part-2 .pricing-item {
+        background: #FFFFFF;
+        padding: 40px;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+        position: relative;
+        margin: 15px;
+    }
+
+    #pricing-section .container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #pricing-section .part-2 .col-md-4 {
+        margin-top: 0%;
+        margin-bottom: 20px;
+    }
+
     #pricing-section .part-2 .col-md-4 .btn {
         left: 30%;
     }
-    #feature{
+
+    #feature {
         margin-top: 50px;
     }
-    #feature .part-2 figure{
+
+    #feature .part-2 figure {
         display: none;
         padding-bottom: 10px;
     }
-    #feature .part-2 .col-md-6{
+
+    #feature .part-2 .col-md-6 {
         margin-bottom: 20px;
     }
-    #feature{
+
+    #feature {
         padding-bottom: 50px;
     }
 
- }
+    /* about.html */
+    #about-banner {
+        padding: 102px 0;
+    }
+
+    #about-banner {
+        padding-bottom: 42px;
+    }
+
+    #about-banner .part-1 h2 {
+        font-size: 40px;
+        color: #ddd;
+        text-align: center;
+        padding: 0px 0;
+        margin-bottom: 2px;
+    }
+
+    #about_about-us {
+        padding: 70px 0px;
+        padding-bottom: 0px;
+    }
+
+    #about_about-us .group-2 {
+        padding: 0 0 0 0;
+    }
+
+    #about_about-us .group-2 {
+        padding: 25px;
+    }
+
+    #about_about-us .group-2 .row {
+        padding-top: 37px;
+    }
+
+    #about_about-us .group-2 .row .col-sm-6 {
+        padding-bottom: 15px;
+    }
+    #about-team-section .container {
+        padding: 78px 0;
+        text-align: center;
+    }
+    #about-team-section .container .part-1 p {
+        padding: 0px 0px 0px 0px;
+    }
+}
